@@ -2530,6 +2530,14 @@ form .padding-left-15 {
     padding: 20px 0;
     width: 100%;
   }
+
+  .logo {       /* logo resize attributes added */
+    left: 80px;
+    top: 25px;
+  }
+  .logo img {   /* logo resize attributes added */
+    width: 50%;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -2539,7 +2547,7 @@ form .padding-left-15 {
     top: 25px;
   }
   .logo img {
-    width: auto;
+    width: 50%;  /* logo width changed from auto to 50% */
   }
   .th-nav-btn {
     right: 80px;
