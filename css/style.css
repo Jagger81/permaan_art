@@ -2538,6 +2538,13 @@ form .padding-left-15 {
   .logo img {   /* logo resize attributes added */
     width: 50%;
   }
+
+  .navbar-brand {
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
 }
 
 /* Small Devices, Tablets */
@@ -2548,7 +2555,15 @@ form .padding-left-15 {
   }
   .logo img {
     width: 50%;  /* logo width changed from auto to 50% */
+    /* padding-top: 50px; */
   }
+
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+        padding-top: 15px;
+
   .th-nav-btn {
     right: 80px;
     top: 45px;
@@ -2566,6 +2581,10 @@ form .padding-left-15 {
   }
   .blog-left-img:before {
     display: none;
+  }
+
+  .logo img {
+    width: 50%;  /* logo width changed from auto to 50% */
   }
 }
 
